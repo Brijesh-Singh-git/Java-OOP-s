@@ -1,0 +1,84 @@
+Method Overloading ---> If a class contains more than one method with the same name is called a Method Overloading.
+
+Constructor Overloading ---->If a class contains more than one constructor it is called Constructor Overlaoding.
+
+
+IF we define same method multiple time it will conflict, therefore there are some rule whioch we foolow in Method Overloading.
+Rules to follow:-- for both MethodOverlaoding & Constructor
+
+1) Number of Parameters
+2) Order of Parameters 
+3) data type of parameters
+
+
+
+
+Constructor -----> A constructor is a type of a method which is having the same name of the class. 
+				   A constructor will not return any value 
+				   A Constructor will be invoked at the time of execution.( We don't need to call the constructor explicitely)
+				   A Constructor will take the parameters(just like a method)
+				   A Constructor is used for initialising the values.
+				   
+
+Type of Constructor:- 
+
+1) Default Constructor ( without any parameters) 
+
+2) Parametrised Constructor
+
+
+--------------------------------------------------------------------
+
+IMPORTANT:- We can also overload the main method 
+
+class Test {
+
+public static void main(String[] args) {
+		
+	
+	//In order to over load the main metbod we need to change the parameters
+	
+	
+public static void main() {
+
+// code 
+
+} 
+
+public static void main(int a, int b) {
+
+//code 
+
+}
+
+}				
+
+
+
+---------------------------------------------------------------------------
+
+
+this keyword ----->  this keyword is used to eliminate the confusion between class attributes and parameters with the same name 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
