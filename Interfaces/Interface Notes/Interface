@@ -1,0 +1,68 @@
+Interface 
+
+-Multiple Iheritance cannot be achived that why we use Interface to achieve the Multiple Inheritance.
+-Interface is a "BLUE PRINT" of class.
+
+synatx:-
+
+1) It is a Blue Print of class
+
+interface Test1
+{
+//variables
+//methods
+} 
+
+
+2) Interface contains only static and final variables, abstract methods(by default) 
+3) In Interface by default methods are public.
+4) In interface methods are by default abstract.(i.e. it only allows abstract methods)
+	whatever methods we create inside the interface, all those methods needs to be implemented in the child class.
+
+Abstract:--> a method which have only definition but not implementation.
+
+ex:-  void m1(); 
+
+
+interface Test1
+{
+	void m1(); //abstract method
+}  
+
+class Exam implements Test{
+
+	void m1()
+	{
+		//implement the body
+	}
+	} 
+	
+
+
+5) We cannot instantiate interface
+
+Test1 t1 = new Test1(); // not valid 
+Test1 t1 = new Exam(); // valid ---- we need to instiantiate using Class name 
+
+
+
+----------------------------------
+
+Multiple Inheritance using Interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

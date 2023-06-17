@@ -1,13 +1,13 @@
 package Inheritance;
 
-class Vehicle {
+class Vehicle { //Parent
 	
 	void run() {
 		System.out.println("Vehicle is running");
 	}
 }
 
-class Bike extends Vehicle{
+class Bike extends Vehicle{ //Child
 	
 	@Override
 	void run() {
@@ -15,7 +15,7 @@ class Bike extends Vehicle{
 	}
 }
 
-class Truck extends Vehicle{
+class Truck extends Vehicle{ //Child
 	
 	@Override
 	void run() {

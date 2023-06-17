@@ -1,0 +1,12 @@
+Packages ---> A package contains multiple classes. 
+
+Types:-
+
+1) User defined packages
+2) Pre-defined (Built-in packages) ----> These packages are provided by the Java itself 
+										 import statement will be used for using the built-in packages (Like in Testing import.org.javautil)
+
+
+
+										 
+										 

@@ -1,0 +1,23 @@
+Final keyword 
+
+-Final is a keyword that can be assigned to varaibles, method & class.
+
+
+Behaviour of Final:-
+-------------------------------
+final int a=10  // the value of the variable is constant(we cannot change)
+
+final void m1(){ // method we cannot override in the child class
+---
+}
+
+final class Test{ // class cannot be extended to the sub-class
+
+}
+
+
+
+
+
+
+
