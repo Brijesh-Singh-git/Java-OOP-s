@@ -1,0 +1,32 @@
+Static Keyword
+
+1) Static variables and methods are shared across all the objects.
+2) Static variables and methods can be directly accessed through class name, without creating any object.
+
+
+
+Important points to remember about STATIC:--
+
+1) Static methods can access only static stuff (Direct)- without any object creation
+2) Static method can also access the Non-static stuff, but through object creation
+3) Non-static methods can access everything(static & non-static with direct access)
+
+----------------------------------------------------------------------------------------------------------------------------------
+Methods	        Static variable				Static method 				non-static variable				non-static method
+----------------------------------------------------------------------------------------------------------------------------------
+static-method		YES							YES						YES(Through object)				YES(Through object)
+
+non-static method	YES							YES							YES									YES
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

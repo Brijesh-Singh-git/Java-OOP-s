@@ -1,0 +1,62 @@
+Inheritance
+
+Acquiring methods and variables from parent class to child class is called inheritance.
+
+for ex:-
+
+class A 	//Parent Class / Super Class / Base Class
+{
+
+----
+----
+	}
+
+class B extends A  // Child CLass / sub-class / derived class
+
+{
+
+----
+----
+---
+	}
+
+	
+Types of Inheritance:
+
+1) Single-Level
+2) Multi-Level ( There are 3 classes)
+3) Multiple ( 2 parents 1 child) 
+4) Hierarchical ( Single parent many childrens) 
+
+
+
+Hierarchical Inheritance 
+---------------------------
+
+Method Overriding ---> When we re-define the same method from parent class into child class 
+
+RULES:--
+
+1) Method definition should be exactly same as the parent class ( i.e. the number of parameters) 
+
+
+
+Method Overloading V/s Method Overriding
+----------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------
+Overloading                                                                Overriding
+---------------------------------------------------------------------------------------------------------------------------------
+-No inheriance required 											at lest we should have 2 classes( 1 parent & 1 is child)
+-Definition should not be same									Definition should be the same, but body can be changed
+- 
+
+
+
+
+
+
+
+
+
+

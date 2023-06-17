@@ -12,10 +12,10 @@ public class MethodOverloading {
 	}
 	
 	
-	void sum(int x, int y) {
+	void sum(int a, int b) {
 		
-		a=x;
-		b=y;
+		this.a=a;               //(this) keyword is used to eliminate the confusion 
+		this.b=b;
 		System.out.println(a+b);
 	}
 	
