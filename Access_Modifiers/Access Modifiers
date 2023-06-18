@@ -1,0 +1,49 @@
+Access Modifiers --- > specifies the accessibility or scope of a field, method, constructor, or class.
+
+1) Private
+2) Default
+3) Protected
+4) Public
+
+
+
+-Private---> Only within the class
+-Default --> If we don't specify any access modifiers it will be treated as a default.(Accessibility only within the package)
+			 Default is not accessible outside of the pacakge.
+
+-Protected ----> Accessible within the package and outside of the package but through Inheritance.
+-Public ----> It can be accessed anywhere
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+Access Modifier 				Within the class 				Within the package 						Outside the package
+--------------------------------------------------------------------------------------------------------------------------------
+
+Private 							Yes									NO										NO
+
+Default								Yes									Yes										NO
+
+Protected							Yes									Yes							Yes( but with Inheritance)
+
+Public 								YES									YES										YES
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

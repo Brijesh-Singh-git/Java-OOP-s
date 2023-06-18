@@ -1,0 +1,77 @@
+Exception ---> An event which is causing the termination of the program 
+
+Types:
+
+1) Checked Exceptions ---> Exceptions that are identified by the Java compiler 
+2) Un-checked Exceptions ---> Exceptions which are not identified by the Java compiler
+
+
+
+Un-Checked Exception
+------------------------
+
+Arithmetic Exception
+NullPointer Exception
+NumberFormat Exception
+ArrayIndexOutOfBound Exception
+
+
+-----
+Handling of Exception
+
+1) try-catch block  (Used to handle both checked and unchecked exception)
+
+2) try-catch-finally 
+
+Case1: Exception occurs, catch block handles, finally block also execute
+Case2: Exception occurs, catch block not handles, finally block executes
+Case3: Exception occurs, catch block will ignore, finally block executes
+
+
+
+----------------------------------------------------------------------------------------------------
+
+
+Checked Exception
+----------------------
+
+InterruptedException
+FileNotFoundException
+IOException
+
+Handling:-
+---------------
+
+1) Try-catch block 
+2) throws keyword
+
+
+-----------------------------------------------------------------------------------------------------------------------------				
+
+				UnChecked 						Checked 				Method Level					Within the method
+-----------------------------------------------------------------------------------------------------------------------------				
+try…catch			YES							  YES						NO									YES
+throws				NO							  YES						YES									NO
+
+-----------------------------------------------------------------------------------------------------------------------------				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
