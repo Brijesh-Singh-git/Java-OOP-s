@@ -1,0 +1,40 @@
+Array Limitations
+---------------------
+
+1) Fixed in size --->overcome this limitations using ArrayList
+2) can hold same data type elements ----> Object
+
+
+ArrayList is a DataStructure in Java.
+In ArrayList we can store any number of elements without any limit and we can store any type of data elements without creating Object.
+
+int a[] = new int[5] //Normal array declaration
+
+ArrayList al = new ArrayList(); //Allows all the data type elements
+
+ArrayList<String> al = new ArrayList<String>(); //Allows only String type data elements
+
+ArrayList<Integer> al = new ArrayList<Integer>(); //Allows only Integer type data elements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
